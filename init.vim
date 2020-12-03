@@ -1,4 +1,8 @@
 call plug#begin('~/.vim/plugged')
+
+" Start screen
+Plug 'mhinz/vim-startify'
+
 "Themes
 Plug 'tomasr/molokai'
 
@@ -10,6 +14,9 @@ Plug 'tpope/vim-repeat'
 
 "Git
 Plug 'tpope/vim-fugitive'
+
+"Syntax
+Plug 'sheerun/vim-polyglot'
 
 "Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -50,6 +57,7 @@ set path+=**
 set wildmenu
 set showcmd
 
+" Active mouse
 set mouse=a
 
 
