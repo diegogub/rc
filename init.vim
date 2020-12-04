@@ -3,14 +3,12 @@ call plug#begin('~/.vim/plugged')
 " Start screen
 Plug 'mhinz/vim-startify'
 
-"Themes
-Plug 'tomasr/molokai'
-
-"
 "
 Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-repeat'
+
+Plug 'dikiaap/minimalist'
 
 "Git
 Plug 'tpope/vim-fugitive'
@@ -27,8 +25,8 @@ Plug 'vlime/vlime', {'rtp': 'vim/'}
 Plug 'tpope/vim-surround'
 Plug 'cohama/lexima.vim'
 
-Plug 'guns/vim-sexp'
-let g:sexp_enable_insert_mode_mappings = 0
+"Plug 'guns/vim-sexp'
+"let g:sexp_enable_insert_mode_mappings = 0
 
 Plug 'luochen1990/rainbow'
 
@@ -36,7 +34,7 @@ let g:rainbow_active = 1
 
 call plug#end()
 
-colorscheme molokai
+colorscheme minimalist
 
 " Tab fix
 filetype plugin indent on
@@ -68,3 +66,11 @@ command! RunVlime !clrpl
 " File browser
 let g:netrw_banner=0
 let g:netrw_browser_split=4
+
+" Map leader to space
+nnoremap <SPACE> <Nop>
+map <Space> <Leader>
+
+
+"Show line numbers
+set nu
