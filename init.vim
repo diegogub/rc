@@ -23,10 +23,10 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " Lisp
 Plug 'vlime/vlime', {'rtp': 'vim/'}
 Plug 'tpope/vim-surround'
-Plug 'cohama/lexima.vim'
-
-"Plug 'guns/vim-sexp'
-"let g:sexp_enable_insert_mode_mappings = 0
+"Plug 'cohama/lexima.vim'
+Plug 'vim-scripts/paredit.vim'
+Plug 'guns/vim-sexp'
+let g:sexp_enable_insert_mode_mappings = 0
 
 Plug 'luochen1990/rainbow'
 
