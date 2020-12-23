@@ -12,12 +12,14 @@ Plug 'dikiaap/minimalist'
 
 "Git
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 
 "Syntax
 Plug 'sheerun/vim-polyglot'
 
 "Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 
 
 " Lisp
