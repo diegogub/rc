@@ -3,10 +3,15 @@ call plug#begin('~/.vim/plugged')
 " Start screen
 Plug 'mhinz/vim-startify'
 
+"nginx
+Plug 'chr4/nginx.vim'
+
+
 "
 Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-repeat'
+Plug 'mattn/emmet-vim'
 
 Plug 'dikiaap/minimalist'
 
