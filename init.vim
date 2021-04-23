@@ -20,6 +20,13 @@ Plug 'sheerun/vim-polyglot'
 "Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+" HTML & CSS
+Plug 'mattn/emmet-vim'
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
+"Elm
+Plug 'andys8/vim-elm-syntax'
 
 
 " Lisp
